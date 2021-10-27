@@ -32,13 +32,6 @@ if(mayorMenor > 10 && mayorMenor <50){
 }else{
     alert("No entra en el rango de 10 a 50");
 }
-
-/*
-var numero1= 5;
-for (var i= 0 ; i >= 5 ; i++ ){
-    console.log("Hola");
-}
-
 var color = "rojo";
 if(color == "verde"){
     console.log("Es color verde");
@@ -49,4 +42,3 @@ if(color == "verde"){
 }else{
     console.log("No es un color primario");
 }
-*/
