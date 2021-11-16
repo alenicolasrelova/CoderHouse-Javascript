@@ -1,12 +1,4 @@
-/*
 
-var noticia1 = document.getElementById("noticia1"); //Devuelve 1 solo elemento
-console.log(noticia1);
-console.log(noticia1.innerHTML);
-console.log("titulo: " + document.getElementById("header").innerHTML);
-
-
-*/
 var paises = document.getElementsByClassName("paises"); //Devuelve un Array de Elementos
 //console.log(paises);
 //console.log(paises[0].innerHTML);
@@ -24,31 +16,29 @@ var contenedores2 = document.getElementsByTagName("section"); //Devuelve un Arra
 //console.log(contenedores2[0].innerHTML);
 //console.log(contenedores2[1].innerHTML);
 //console.log(contenedores2[2].innerHTML);
-
+console.log(" ------------- 'Los paises ' -------------");
 for (const pais of paises) {
     console.log(pais.innerHTML);
 }
 
-for (const div of contenedores2) {
-    console.log(div.innerHTML);
-}
-/*
+console.log("------------- 'Lo que tiene mi div' -------------");
+// for (const div of contenedores2) {
+//    console.log(div.innerHTML);
+// }
+
 // Agregando Elementos
 let parrafo = document.createElement("div");
-parrafo.innerHTML = "<h3>Curso de <strong>Javascript</strong> en <strong>Coderhouse</strong></h3>";
-//document.body.appendChild(parrafo); //Agregamos al Body
+parrafo.innerHTML = "<h3>Vamos Argentina <strong>Vamos Vamos Pipa</h3>";
+document.body.appendChild(parrafo); //Insertamos al html el subtitulo creado
 
-// Podemos agregar adentro de un Section o Div?
-var noticia3 = document.getElementById("noticia3");
-noticia3.appendChild(parrafo);*/
-/*
+
 var paises = document.getElementById("paises");
-var li = document.createElement("li");
-li.innerHTML = "Brasil";
-paises.appendChild(li);*/
+var insertaPais = document.createElement("insertaPais");
+insertaPais.innerHTML = "Cuba";
+paises.appendChild(insertaPais);
 
 
-/*
+
 // Eliminando Elementos
 let parrafo = document.getElementById("parrafo1");
 parrafo.parentNode.removeChild(parrafo);
@@ -56,9 +46,9 @@ parrafo.parentNode.removeChild(parrafo);
 //var padre = parrafo.parentNode;
 //console.log(padre);
 //padre.removeChild(parrafo);*/
-/*
+
 let paises = document.getElementsByClassName("paises");
-paises[1].parentNode.removeChild(paises[1]);*/
+paises[1].parentNode.removeChild(paises[1]);
 
 /*
 
