@@ -40,15 +40,15 @@ paises.appendChild(insertaPais);
 
 
 // Eliminando Elementos
-let parrafo = document.getElementById("parrafo1");
-parrafo.parentNode.removeChild(parrafo);
+let parrafo2 = document.getElementById("parrafo1");
+parrafo2.parentNode.removeChild(parrafo2);
 // Otra forma
 //var padre = parrafo.parentNode;
 //console.log(padre);
 //padre.removeChild(parrafo);*/
 
-let paises = document.getElementsByClassName("paises");
-paises[1].parentNode.removeChild(paises[1]);
+let paises3 = document.getElementsByClassName("paises3");
+//paises3[1].parentNode.removeChild(paises3[1]);
 
 /*
 
